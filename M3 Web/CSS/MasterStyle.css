@@ -1,0 +1,106 @@
+﻿*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+body {
+	
+	font-family: 'Poppins', sans-serif;
+	
+}
+
+.logobox img {
+    width: 100%;
+    height:50px;
+    object-fit:cover;
+    padding-top: 8px;
+   
+   
+
+	
+}
+
+.logobox a{
+    font-family:Poppins,serif;
+    font-size: 18px;
+    font-weight:600;
+    color: #1E2F48;
+    padding-left:8px;
+    text-decoration:none;
+}
+
+.logobox {
+display: flex;
+max-height: 20px;
+align-items:center;
+margin-right: 65vh;
+
+
+
+}
+
+.navlinks  a{
+	text-decoration: none;
+	color: #1E2F48;
+	padding: 9px;
+	
+}
+
+
+
+.navlinks a:hover{
+	color: blue;
+	
+}
+.navlinks {
+display:flex;
+}
+
+.navlinks ul {
+	display: flex;
+	list-style-type: none;
+	
+}
+
+.list2 {
+    display:flex;
+    list-style-type: none;
+}
+
+.loginlinks {
+    margin-left:60px;
+}
+
+.loginlinks a {
+    padding-left:10px;
+}
+
+.navbox{
+	display: flex;
+	background-color: #EAEEF4;
+	
+	padding: 25px 8vh 25px 15vh ;
+	width: auto;
+	max-height: 50px;
+	align-items: center;
+	
+}
+
+.loginBtn {
+
+font-size:15px;
+background-color:#0337A0;
+color:white;
+border:0px;
+border-radius:7px;
+width:50px;
+height:25px;
+
+}
+
+.loginBtn:hover{
+    background-color:white;
+    color:black;
+}
+
+

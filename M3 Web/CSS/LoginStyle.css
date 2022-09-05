@@ -1,0 +1,113 @@
+﻿.container {
+    display:flex;
+    flex-direction:row;
+    margin-top: 15vh;
+    padding:0px 15vh;
+    padding-bottom: 26vh;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.labels {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 50vh;
+    margin-bottom:6vh;
+
+}
+
+
+.label1 h1{
+    font-size:30px;
+
+}
+
+.label2 a{
+    font-size:13px;
+    color: #0337A0;
+}
+.loginform {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    background-color:white;
+    margin-right: 30vh;
+
+   
+
+}
+.loginimage {
+    width:60vh;
+    height:50vh;
+    background-color:white;
+    padding-bottom: 10vh;
+
+}
+
+.loginimage img {
+    height:100%;
+
+}
+
+.box {
+padding-bottom:8vh;
+
+}
+
+
+
+
+.emailbox {
+    border: 0.5px solid grey;
+    background-color:white;
+    width: 50vh;
+    height:5vh;
+    border-radius:5px;
+    padding-left:10px;
+}
+
+.passwordbox {
+    border: 0.5px solid grey;
+    background-color:white;
+    width: 50vh;
+    height: 5vh;
+    border-radius:5px;
+    padding-left:10px;
+}
+
+ .passwordbox:hover {
+    border: 0.5px solid blue;
+
+ }
+
+ .emailbox:hover {
+    border: 0.5px solid blue;
+
+ }
+
+ .box label{
+     font-size:15px;
+     color:#242424;
+
+ }
+
+ 
+.loginFormBtn {
+    background-color:#0337A0;
+    color: white;
+    width:50vh;
+    height:6vh;
+    border:none;
+    border-radius: 5px;
+    font-size: 18px;
+
+
+}
+
+.loginFormBtn:hover{
+    background-color:cornflowerblue;
+
+}
